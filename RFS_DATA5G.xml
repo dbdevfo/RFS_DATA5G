@@ -7,6 +7,83 @@
          </remoteCatalog>
       </remoteCatalogs>
       <items>
+         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="155" valid="true" lastChangedTimestamp="1645702551205" version="1.2" name="TS_5G_AUCARPF_SUB" description="Adding more rule params" alias="">
+            <capabilities />
+            <dependencies />
+            <exclusions />
+            <transactions>
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_AUCARPF_SUB_Create" name="Create">
+                  <request>
+                     <parameters>
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="IMSI" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="AUTHENTICATION_METHOD" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ENC_PERMANENT_KEY" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="AUTHENTICATION_MANAGEMENT_FIELD" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ALGORITHM_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="A4_KEY_IND" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="A4_IND" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ENC_OPC_KEY" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="A4KEY_IND" description="" />
+                     </parameters>
+                  </request>
+                  <response>
+                     <parameters />
+                  </response>
+                  <complete>
+                     <parameters />
+                  </complete>
+                  <events />
+                  <RFIs />
+                  <transactionParameters>
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateAuthSubscription" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
+                  </transactionParameters>
+               </transaction>
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_AUCARPF_SUB_Display" name="Display">
+                  <request>
+                     <parameters>
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
+                     </parameters>
+                  </request>
+                  <response>
+                     <parameters />
+                  </response>
+                  <complete>
+                     <parameters />
+                  </complete>
+                  <events />
+                  <RFIs />
+                  <transactionParameters>
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="GetAuthSubscription" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="4" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
+                  </transactionParameters>
+               </transaction>
+            </transactions>
+            <itemInformationList />
+            <itemParameters>
+               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="($EDA2_5G_NE_ID)" namespace="Instantlink" name="NE_ID" description="" />
+               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="REST" namespace="Instantlink" name="NE_TYPE" description="" />
+            </itemParameters>
+         </item>
          <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="7" external_id="105" valid="true" lastChangedTimestamp="1627602760300" version="2.1" name="TS_AUC_SUB" description="" alias="">
             <capabilities>
                <capability name="TS_AUC_SUB" />
@@ -139,41 +216,28 @@
                <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="($HLR_NE_ID)" namespace="Instantlink" name="NE_ID" description="" />
             </itemParameters>
          </item>
-         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="5" external_id="151" valid="true" lastChangedTimestamp="1645111999555" version="1.3" name="TS_HSS_EPS_SUB" description="New parameter epsIndCoreNetworkRestriction Addition" alias="">
-            <capabilities>
-               <capability name="TS_HSS_EPS_SUB" />
-            </capabilities>
+         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="156" valid="true" lastChangedTimestamp="1645702551303" version="1.2" name="TS_5G_UDM_SUB" description="Adding new parameters." alias="">
+            <capabilities />
             <dependencies />
             <exclusions />
             <transactions>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Create" name="Create">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Create" name="Create">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ODB" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_DEF_CONTEXT_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_10" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_4" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_5" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_6" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_7" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_8" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_9" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_ALLOWED" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_RESTRICT" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_REGIONAL_ROAMING_SERVICE_AREA_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="UDM_SLICE_PROFILE_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN" description="" />
-                        <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="UP_LINK" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DOWN_LINK" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="MICO_ALLOWED" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -185,23 +249,23 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Delete" name="Delete">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Delete" name="Delete">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
-                        <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -213,26 +277,24 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="DeleteEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="DeleteUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="3" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Display" name="Display">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Display" name="Display">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
+                        <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_3" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_3" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_2" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
                      </parameters>
                   </request>
@@ -245,41 +307,27 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="GetEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="GetUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="4" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Modify" name="Modify">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Modify" name="Modify">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="epsIndCoreNetworkRestriction" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ODB" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_DEF_CONTEXT_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_4" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_5" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_6" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_7" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_8" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_9" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_10" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_PROFILE_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_ALLOWED" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_RESTRICT" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_REGIONAL_ROAMING_SERVICE_AREA_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RAT_RESTRICTIONS_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN_DEACTIVE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RAT_RESTRICTIONS_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RAT_RESTRICTIONS_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RAT_RESTRICTIONS_4" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -291,82 +339,9 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="SetEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="SetUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="2" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
-                  </transactionParameters>
-               </transaction>
-            </transactions>
-            <itemInformationList />
-            <itemParameters>
-               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="($HSS_EPS_NE_ID)" namespace="Instantlink" name="NE_ID" description="" />
-               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="HSS" namespace="Instantlink" name="NE_TYPE" description="" />
-            </itemParameters>
-         </item>
-         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="152" valid="true" lastChangedTimestamp="1645120260485" version="1.1" name="TS_5G_AUCARPF_SUB" description="For DEV Import goal" alias="">
-            <capabilities />
-            <dependencies />
-            <exclusions />
-            <transactions>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_AUCARPF_SUB_Create" name="Create">
-                  <request>
-                     <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="IMSI" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="AUTHENTICATION_METHOD" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ENC_PERMANENT_KEY" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="AUTHENTICATION_MANAGEMENT_FIELD" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ALGORITHM_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="A4_KEY_IND" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="A4_IND" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ENC_OPC_KEY" description="" />
-                     </parameters>
-                  </request>
-                  <response>
-                     <parameters />
-                  </response>
-                  <complete>
-                     <parameters />
-                  </complete>
-                  <events />
-                  <RFIs />
-                  <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateAuthSubscription" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
-                  </transactionParameters>
-               </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_AUCARPF_SUB_Display" name="Display">
-                  <request>
-                     <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                     </parameters>
-                  </request>
-                  <response>
-                     <parameters />
-                  </response>
-                  <complete>
-                     <parameters />
-                  </complete>
-                  <events />
-                  <RFIs />
-                  <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="GetAuthSubscription" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="4" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
             </transactions>
@@ -376,7 +351,7 @@
                <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="REST" namespace="Instantlink" name="NE_TYPE" description="" />
             </itemParameters>
          </item>
-         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="153" valid="true" lastChangedTimestamp="1645120297175" version="1.1" name="TS_5G_PCRF_SUB" description="For DEV Import goal" alias="">
+         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="157" valid="true" lastChangedTimestamp="1645702551377" version="1.2" name="TS_5G_PCRF_SUB" description="Adding new params" alias="">
             <capabilities />
             <dependencies />
             <exclusions />
@@ -384,6 +359,33 @@
                <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_PCRF_SUB_Create" name="Create">
                   <request>
                      <parameters>
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_END_DATE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_PRIORITY_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="p" namespace="5G_REST" name="DEFAULT_ADDITIONAL_PROP" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_APN_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_IPV4_ADDRESS_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_START_TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_UPDATE_TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_START_DATE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PRIORITY_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_ID_KEY_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_END_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_END_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_SUB_CAT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_SUB_CAT_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_PRIORITY_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_PRIORITY_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_START_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_START_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_END_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_END_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DURATIONS_START_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DURATIONS_START_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_CAT_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PRIORITY" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="START_DATE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="END_DATE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="APP_FLAG" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_2" description="" />
@@ -393,6 +395,71 @@
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DEFAULT_SUB_CAT_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_CAT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_CAT_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PRIORITY_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PRIORITY_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="START_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="START_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="END_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="END_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DNN_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DNN_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_SST_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_SST_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_SD_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SNSSAI_SD_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PCF_SLICE_PROFILE_REFERENCE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ADDITIONAL_PROP_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ADDITIONAL_PROP_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PROP_DATA_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PROP_DATA_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PROP_VALUE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PROP_VALUE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_CAT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_CAT_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_PRIORITY_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_PRIORITY_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_START_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUB_SC_START_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DURATIONS_END_DATE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="DURATIONS_END_DATE_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="INSTANCE_CONTRACT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SP_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="FAMILY_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CUSTOMER_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="MPS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="MIN_BQOS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="MAX_BQOS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CHARGING_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CHARGING_SYSTEM_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CONTENT_FILTERING_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PRESENCE_AREA_NAME" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PDN_GW_LIST_NAME" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="NAME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="BIDR_VOLUME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ACCUMLATED_USAGE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="BLACK_LIST_SERVICES_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SUBSCRIBED_SERVICES_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SERVICES_TO_REDIRECT" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="EVENT_TRIGGERS_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="SMS_DESTINATIONS_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="TRAFFIC_ID_TYPE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="TRAFFIC_ID_VALUE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="APN_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="IP_ADDRESS_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="START_TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="UPDATE_TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ONGOING_SESSION_RAT_TYPE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_ID_TYPE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_ID_VALUE_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="PCC_RULE_IDS_1_1_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_TIME_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="CLOSED_SESSION_RAT_TYPE_1" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -444,25 +511,41 @@
                <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="REST" namespace="Instantlink" name="NE_TYPE" description="" />
             </itemParameters>
          </item>
-         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="6" external_id="154" valid="true" lastChangedTimestamp="1645120326389" version="1.1" name="TS_5G_UDM_SUB" description="For DEV Import goal" alias="">
-            <capabilities />
+         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RemoteItemType" remoteCatalog="InternalRemoteCatalog" checkoutUsername="" checkoutReason="" userDefinedType="Technical Service" folders="5" external_id="158" valid="true" lastChangedTimestamp="1645702551546" version="1.4" name="TS_HSS_EPS_SUB" description="For import goal(with new parameter)" alias="">
+            <capabilities>
+               <capability name="TS_HSS_EPS_SUB" />
+            </capabilities>
             <dependencies />
             <exclusions />
             <transactions>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Create" name="Create">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Create" name="Create">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="UDM_SLICE_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ODB" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_DEF_CONTEXT_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_10" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_4" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_5" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_6" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_7" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_8" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_9" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
+                        <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_ALLOWED" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_RESTRICT" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_REGIONAL_ROAMING_SERVICE_AREA_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_TYPE_3" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="ID_VALUE_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -474,23 +557,23 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="CreateEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Delete" name="Delete">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Delete" name="Delete">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
+                        <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -502,24 +585,27 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="DeleteUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="DeleteEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="3" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
                </transaction>
-               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_5G_UDM_SUB_Modify" name="Modify">
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Display" name="Display">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="USER_ID" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="5G_REST" name="RAT_RESTRICTIONS_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_3" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_3" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_exec" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_cond_1" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_2_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -531,7 +617,54 @@
                   <events />
                   <RFIs />
                   <transactionParameters>
-                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="SetUdmData" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="GetEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="4" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
+                  </transactionParameters>
+               </transaction>
+               <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="TS_HSS_EPS_SUB_Modify" name="Modify">
+                  <request>
+                     <parameters>
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_IND_CORE_NETWORK_RESTRICTIONS" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ODB" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_DEF_CONTEXT_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RB" name="TRIGGER_RB" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_4" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_5" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_6" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_7" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_8" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_9" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_10" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="IMSI1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="MSISDN1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_PROFILE_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_ALLOWED" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_ROAMING_RESTRICT" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_REGIONAL_ROAMING_SERVICE_AREA_ID" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_act_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_cond_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="RULES" name="rule_1_exec" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_1" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_2" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="EPS_CONTEXT_ID_3" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="COMMON_MSISDN_DEACTIVE" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="HSS" name="epsIndCoreNetworkRestriction" description="" />
+                     </parameters>
+                  </request>
+                  <response>
+                     <parameters />
+                  </response>
+                  <complete>
+                     <parameters />
+                  </complete>
+                  <events />
+                  <RFIs />
+                  <transactionParameters>
+                     <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="SetEPSMultiSC" sequence="-1" namespace="Instantlink" name="ACTION" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="1" sequence="-1" namespace="Instantlink" name="REQ_OBJ" description="" />
                      <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="2" sequence="-1" namespace="Instantlink" name="REQ_TYPE" description="" />
                   </transactionParameters>
@@ -539,11 +672,11 @@
             </transactions>
             <itemInformationList />
             <itemParameters>
-               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="($EDA2_5G_NE_ID)" namespace="Instantlink" name="NE_ID" description="" />
-               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="REST" namespace="Instantlink" name="NE_TYPE" description="" />
+               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="($HSS_EPS_NE_ID)" namespace="Instantlink" name="NE_ID" description="" />
+               <parameter mandatory="true" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="HSS" namespace="Instantlink" name="NE_TYPE" description="" />
             </itemParameters>
          </item>
-         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="LocalItemType" inTransition="false" state="Testing" checkoutUsername="" checkoutReason="" userDefinedType="Service" folders="3" external_id="149" valid="true" lastChangedTimestamp="1645120495027" level="0" version="1.0" name="RFS_DATA5G" description="" alias="">
+         <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="LocalItemType" inTransition="false" state="Testing" checkoutUsername="" checkoutReason="" userDefinedType="Service" folders="3" external_id="160" valid="true" lastChangedTimestamp="1645739349744" level="0" version="1.1" name="RFS_DATA5G" description="For export goal" alias="">
             <capabilities>
                <capability name="RFS_DATA5G" />
             </capabilities>
@@ -569,8 +702,8 @@
                <transaction undoTransaction="" isCancel="false" durationUnit="" durationValue="-1" activityName="RFS_DATA5G_Delete" name="Delete">
                   <request>
                      <parameters>
-                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="Request" name="MSISDN" description="" />
                         <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="Request" name="IMSI" description="" />
+                        <parameter mandatory="false" dataType="string" repeatable="false" repeatLimit="0" minValue="" maxValue="" defaultValue="" namespace="Request" name="MSISDN" description="" />
                      </parameters>
                   </request>
                   <response>
@@ -586,116 +719,159 @@
             <itemInformationList />
             <itemParameters />
             <embeddedItems>
+               <embeddedItem instanceName="TS_5G_AUCARPF_SUB 1" version="1.2" name="TS_5G_AUCARPF_SUB" />
+               <embeddedItem instanceName="TS_5G_AUCARPF_SUB 2" version="1.2" name="TS_5G_AUCARPF_SUB" />
                <embeddedItem instanceName="TS_AUC_SUB 1" version="2.1" name="TS_AUC_SUB" />
-               <embeddedItem instanceName="TS_HSS_EPS_SUB 2" version="1.3" name="TS_HSS_EPS_SUB" />
-               <embeddedItem instanceName="TS_5G_AUCARPF_SUB 3" version="1.1" name="TS_5G_AUCARPF_SUB" />
-               <embeddedItem instanceName="TS_5G_AUCARPF_SUB 4" version="1.1" name="TS_5G_AUCARPF_SUB" />
-               <embeddedItem instanceName="TS_5G_PCRF_SUB 2" version="1.1" name="TS_5G_PCRF_SUB" />
-               <embeddedItem instanceName="TS_5G_UDM_SUB 2" version="1.1" name="TS_5G_UDM_SUB" />
+               <embeddedItem instanceName="TS_5G_UDM_SUB 1" version="1.2" name="TS_5G_UDM_SUB" />
+               <embeddedItem instanceName="TS_5G_PCRF_SUB 1" version="1.2" name="TS_5G_PCRF_SUB" />
+               <embeddedItem instanceName="TS_HSS_EPS_SUB 2" version="1.4" name="TS_HSS_EPS_SUB" />
             </embeddedItems>
             <messageDependencies>
-               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_AUCARPF_SUB 3" parentTransaction="Display" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_AUC_SUB 1" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_AUCARPF_SUB 1" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_UDM_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_UDM_SUB 2" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_PCRF_SUB 2" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_AUCARPF_SUB 2" parentTransaction="Display" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_AUC_SUB 1" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_AUCARPF_SUB 4" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Create" parentInstanceName="TS_AUC_SUB 1" parentTransaction="Display" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_AUCARPF_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_PCRF_SUB 2" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_UDM_SUB 1" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_PCRF_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_AUC_SUB 1" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_PCRF_SUB 2" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_UDM_SUB 2" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_AUCARPF_SUB 3" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_AUCARPF_SUB 4" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_UDM_SUB 2" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Create" parentInstanceName="TS_5G_PCRF_SUB 1" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
                <messageDependency transactionContext="Create" parentInstanceName="TS_HSS_EPS_SUB 2" parentTransaction="Modify" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_COMPLETE">
                   <parameterMappings />
                </messageDependency>
+               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_AUCARPF_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings>
+                     <parameterMapping fromName="IMSI" fromNamespace="Request" toName="ID_VALUE_1" toNamespace="5G_REST" />
+                  </parameterMappings>
+               </messageDependency>
+               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_AUCARPF_SUB 2" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings />
+               </messageDependency>
+               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_AUC_SUB 1" childTransaction="Display" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings />
+               </messageDependency>
+               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_UDM_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings />
+               </messageDependency>
+               <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_PCRF_SUB 1" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings />
+               </messageDependency>
                <messageDependency transactionContext="Create" parentInstanceName="" parentTransaction="Create" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Create" parentInstanceName="TS_AUC_SUB 1" parentTransaction="Display" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_AUCARPF_SUB 4" childTransaction="Create" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Delete" parentInstanceName="TS_5G_UDM_SUB 1" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
+                  <parameterMappings />
+               </messageDependency>
+               <messageDependency transactionContext="Delete" parentInstanceName="TS_5G_PCRF_SUB 1" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_UDM_SUB 1" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
                <messageDependency transactionContext="Delete" parentInstanceName="TS_HSS_EPS_SUB 2" parentTransaction="Modify" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_COMPLETE">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Delete" parentInstanceName="TS_5G_PCRF_SUB 2" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_5G_UDM_SUB 2" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Delete" parentInstanceName="" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_UDM_SUB 1" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Delete" parentInstanceName="TS_5G_UDM_SUB 2" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_COMPLETE" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
+               <messageDependency transactionContext="Delete" parentInstanceName="" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_PCRF_SUB 1" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
                <messageDependency transactionContext="Delete" parentInstanceName="" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_HSS_EPS_SUB 2" childTransaction="Modify" childEventName="" childMessageType="TRANSACTION_REQUEST">
                   <parameterMappings />
                </messageDependency>
-               <messageDependency transactionContext="Delete" parentInstanceName="" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_PCRF_SUB 2" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
-               <messageDependency transactionContext="Delete" parentInstanceName="" parentTransaction="Delete" parentEventName="" parentMessageType="TRANSACTION_REQUEST" childInstanceName="TS_5G_UDM_SUB 2" childTransaction="Delete" childEventName="" childMessageType="TRANSACTION_REQUEST">
-                  <parameterMappings />
-               </messageDependency>
             </messageDependencies>
             <defaultValues>
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_1" parameterNamespace="5G_REST" defaultValue="imsi" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="AUTHENTICATION_METHOD" parameterNamespace="5G_REST" defaultValue="5G_AKA" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ENC_PERMANENT_KEY" parameterNamespace="5G_REST" defaultValue="($RESP_DATA__KI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="AUTHENTICATION_MANAGEMENT_FIELD" parameterNamespace="5G_REST" defaultValue="0001" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ALGORITHM_ID" parameterNamespace="5G_REST" defaultValue="($RESP_DATA__FSETIND)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="A4_KEY_IND" parameterNamespace="5G_REST" defaultValue="($RESP_DATA__ADKEY)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="A4_IND" parameterNamespace="5G_REST" defaultValue="($RESP_DATA__A4IND)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="SKIPTASK" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFNOTEXIST(RESP_DATA__RESP_FAULT_CODE)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="A4KEY_IND" parameterNamespace="5G_REST" defaultValue="($RESP_DATA__ADKEY)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="GET_ALL_RESP_PARAM(true)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_2_act_1" parameterNamespace="RULES" defaultValue="IGNOREFAIL" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_2_cond_1" parameterNamespace="RULES" defaultValue="IFEQUAL(%RESP_DATA__RESP_FAULT_CODE,12001);IFEQUAL(%RESP_DATA__RESP_FAULT_CODE,12002)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 2" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_2_exec" parameterNamespace="RULES" defaultValue="POST" />
                <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="IMSI" parameterNamespace="HLR" defaultValue="($IMSI)" />
                <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="SKIPTASK" />
-               <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFNOTEXIST(RESP_FAULT_CODE);IFNOTEQUAL(%RESP_FAULT_CODE,0)" />
+               <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFNOTEXIST(RESP_DATA__RESP_FAULT_CODE)" />
                <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
-               <defaultValue transactionContext="Create" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="epsIndCoreNetworkRestriction" parameterNamespace="HSS" defaultValue="0" />
+               <defaultValue transactionContext="Create" instanceName="TS_AUC_SUB 1" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_2" parameterNamespace="RULES" defaultValue="GET_ALL_RESP_PARAM(true)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_1" parameterNamespace="5G_REST" defaultValue="imsi" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_2" parameterNamespace="5G_REST" defaultValue="msisdn" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_1" parameterNamespace="5G_REST" defaultValue="($IMSI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_2" parameterNamespace="5G_REST" defaultValue="($MSISDN)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="UDM_SLICE_PROFILE_ID" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="UP_LINK" parameterNamespace="5G_REST" defaultValue="30 Gbps" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DOWN_LINK" parameterNamespace="5G_REST" defaultValue="30 Gbps" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="MICO_ALLOWED" parameterNamespace="5G_REST" defaultValue="false" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_END_DATE" parameterNamespace="5G_REST" defaultValue="01-01-2035" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_PRIORITY_ID" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_ADDITIONAL_PROP" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_START_DATE" parameterNamespace="5G_REST" defaultValue="01-01-2020" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PRIORITY_ID" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SNSSAI_ID_KEY_1" parameterNamespace="5G_REST" defaultValue="1-000002" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_SC_END_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2035" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_SUB_CAT_ID_1" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_PRIORITY_1" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_START_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2020" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_END_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2035" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_CAT_ID" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PRIORITY" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="START_DATE" parameterNamespace="5G_REST" defaultValue="01-01-2020" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="END_DATE" parameterNamespace="5G_REST" defaultValue="01-01-2035" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="APP_FLAG" parameterNamespace="5G_REST" defaultValue="null" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)&amp;app=PCF" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_1" parameterNamespace="5G_REST" defaultValue="imsi" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_2" parameterNamespace="5G_REST" defaultValue="msisdn" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_1" parameterNamespace="5G_REST" defaultValue="($IMSI)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_2" parameterNamespace="5G_REST" defaultValue="($MSISDN)" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PCF_SLICE_PROFILE_REFERENCE_ID" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DEFAULT_SUB_CAT_ID" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_CAT_ID_1" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PRIORITY_1" parameterNamespace="5G_REST" defaultValue="2" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PRIORITY_2" parameterNamespace="5G_REST" defaultValue="2" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="START_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2020" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="END_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2035" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="DNN_1" parameterNamespace="5G_REST" defaultValue="timbrasil.br" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SNSSAI_ID_1" parameterNamespace="5G_REST" defaultValue="1-000002" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SNSSAI_SST_1" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SNSSAI_SD_1" parameterNamespace="5G_REST" defaultValue="010101" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ADDITIONAL_PROP_1" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_SC_CAT_ID_1" parameterNamespace="5G_REST" defaultValue="OCS_DIG" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_SC_PRIORITY_1" parameterNamespace="5G_REST" defaultValue="1" />
+               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 1" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="SUB_SC_START_DATE_1" parameterNamespace="5G_REST" defaultValue="01-01-2020" />
+               <defaultValue transactionContext="Create" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="EPS_IND_CORE_NETWORK_RESTRICTIONS" parameterNamespace="HSS" defaultValue="0" />
                <defaultValue transactionContext="Create" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="IMSI1" parameterNamespace="HSS" defaultValue="($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 3" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 3" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="POST" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 3" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="IGNOREFAIL" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 3" transactionName="Display" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFNOTEQUAL(%RESP_FAULT_CODE,0)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="AUTHENTICATION_METHOD" parameterNamespace="5G_REST" defaultValue="5G_AKA" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ENC_PERMANENT_KEY" parameterNamespace="5G_REST" defaultValue="EKI" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="AUTHENTICATION_MANAGEMENT_FIELD" parameterNamespace="5G_REST" defaultValue="0001" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ALGORITHM_ID" parameterNamespace="5G_REST" defaultValue="FSETIND" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="A4_KEY_IND" parameterNamespace="5G_REST" defaultValue="KIND" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="A4_IND" parameterNamespace="5G_REST" defaultValue="A4IND" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="SKIPTASK" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_AUCARPF_SUB 4" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFNOTEXIST(RESP_FAULT_CODE);IFNOTEQUAL(%RESP_FAULT_CODE,0)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)&amp;app=PCF" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_1" parameterNamespace="5G_REST" defaultValue="imsi" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_2" parameterNamespace="5G_REST" defaultValue="msisdn" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_1" parameterNamespace="5G_REST" defaultValue="($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_2" parameterNamespace="5G_REST" defaultValue="($MSISDN)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_PCRF_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="PCF_SLICE_PROFILE_REFERENCE_ID" parameterNamespace="5G_REST" defaultValue="1" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="imsi-($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_1" parameterNamespace="5G_REST" defaultValue="imsi" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_TYPE_2" parameterNamespace="5G_REST" defaultValue="msisdn" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_1" parameterNamespace="5G_REST" defaultValue="($IMSI)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="ID_VALUE_2" parameterNamespace="5G_REST" defaultValue="($MSISDN)" />
-               <defaultValue transactionContext="Create" instanceName="TS_5G_UDM_SUB 2" transactionName="Create" messageType="TRANSACTION_REQUEST" parameterName="UDM_SLICE_PROFILE_ID" parameterNamespace="5G_REST" defaultValue="1" />
-               <defaultValue transactionContext="Delete" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="epsIndCoreNetworkRestriction" parameterNamespace="HSS" defaultValue="2" />
+               <defaultValue transactionContext="Create" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="epsIndCoreNetworkRestriction" parameterNamespace="HSS" defaultValue="0" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="($TEMP_USER_ID)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,imsi-,%IMSI)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFEXIST(IMSI)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_2" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,msisdn-,%MSISDN)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_2" parameterNamespace="RULES" defaultValue="IFNOTEXIST(IMSI)+IFEXIST(MSISDN)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="($TEMP_USER_ID)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,imsi-,%IMSI)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFEXIST(IMSI)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_2" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,msisdn-,%MSISDN)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 1" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_2" parameterNamespace="RULES" defaultValue="IFNOTEXIST(IMSI)+IFEXIST(MSISDN)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="EPS_IND_CORE_NETWORK_RESTRICTIONS" parameterNamespace="HSS" defaultValue="2" />
                <defaultValue transactionContext="Delete" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="IMSI1" parameterNamespace="HSS" defaultValue="($IMSI)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="($TEMP_USER_ID)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,imsi-,%IMSI)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFEXIST(IMSI)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_2" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,msisdn-,%MSISDN)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_PCRF_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_2" parameterNamespace="RULES" defaultValue="IFNOTEXIST(IMSI)+IFEXIST(MSISDN)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="USER_ID" parameterNamespace="5G_REST" defaultValue="($TEMP_USER_ID)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_1" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,imsi-,%IMSI)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_1" parameterNamespace="RULES" defaultValue="IFEXIST(IMSI)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_exec" parameterNamespace="RULES" defaultValue="PRE" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_act_2" parameterNamespace="RULES" defaultValue="STR_CAT(TEMP_USER_ID,msisdn-,%MSISDN)" />
-               <defaultValue transactionContext="Delete" instanceName="TS_5G_UDM_SUB 2" transactionName="Delete" messageType="TRANSACTION_REQUEST" parameterName="rule_1_cond_2" parameterNamespace="RULES" defaultValue="IFNOTEXIST(IMSI)+IFEXIST(MSISDN)" />
+               <defaultValue transactionContext="Delete" instanceName="TS_HSS_EPS_SUB 2" transactionName="Modify" messageType="TRANSACTION_REQUEST" parameterName="epsIndCoreNetworkRestriction" parameterNamespace="HSS" defaultValue="2" />
             </defaultValues>
          </item>
       </items>
